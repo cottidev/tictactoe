@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/2911/2911080.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TIC TAC TOE</title>
+  </head>
+  <body>
+    <h1>IT'S TIC TAC TOE TIME!</h1>
+    <!-- <hr /> -->
+    <br />
+    <div id="gameboard">
+      <div data-cell-index="0" class="gamecell"></div>
+      <!-- 1 -->
+      <div data-cell-index="1" class="gamecell"></div>
+      <!-- 2 -->
+      <div data-cell-index="2" class="gamecell"></div>
+      <!-- 3 -->
+      <div data-cell-index="3" class="gamecell"></div>
+      <!-- 4 -->
+      <div data-cell-index="4" class="gamecell"></div>
+      <!-- 5 -->
+      <div data-cell-index="5" class="gamecell"></div>
+      <!-- 6 -->
+      <div data-cell-index="6" class="gamecell"></div>
+      <!-- 7 -->
+      <div data-cell-index="7" class="gamecell"></div>
+      <!-- 8 -->
+      <div data-cell-index="8" class="gamecell"></div>
+      <!-- 9 -->
+    </div>
+    <button id="gamerestart">Restart</button>
+
+    <!-- -->
+    <div id="scoreboard">
+      X: <span id="scoreX">0</span> O: <span id="scoreO">0</span>
+    </div>
+
+    <ul id="gameHistory"></ul>
+    <button id="refreshPage" onclick="location.reload()">Reset Score</button>
+    <p>
+      by cottidev,
+      <a href="https://github.com/cottidev" target="_blank">check my github</a>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
